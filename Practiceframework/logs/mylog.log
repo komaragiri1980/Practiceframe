@@ -1,0 +1,71 @@
+[INFO ] 2023-07-14 18:40:44.330 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+[INFO ] 2023-07-14 18:40:44.353 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 5 ms.
+[INFO ] 2023-07-14 18:40:44.363 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-07-14 18:40:44.364 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-07-14 18:40:44.387 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 15 ms.
+[INFO ] 2023-07-14 18:40:44.435 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 46 ms.
+[INFO ] 2023-07-14 18:40:44.439 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ] 2023-07-14 18:40:44.441 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ] 2023-07-14 18:40:44.447 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-07-14 18:40:44.447 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-07-14 18:40:44.449 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-07-14 18:40:44.450 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-07-14 18:40:44.451 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-07-14 18:40:44.452 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-07-14 18:40:44.454 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-07-14 18:40:44.454 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-07-14 18:40:44.465 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-07-14 18:40:44.467 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ] 2023-07-14 18:40:44.472 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-07-14 18:40:44.473 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ] 2023-07-14 18:40:44.477 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-07-14 18:40:44.477 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-07-14 18:40:44.486 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 6 ms.
+[INFO ] 2023-07-14 18:40:44.488 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ] 2023-07-14 18:40:44.493 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+[INFO ] 2023-07-14 18:40:44.502 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 6 ms.
+[INFO ] 2023-07-14 18:40:44.506 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-07-14 18:40:44.508 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ] 2023-07-14 18:40:44.508 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2023-07-14 18:40:44.509 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2023-07-14 18:40:44.542 [main] Utils - [TestNG] Running:
+  C:\Users\paone\AppData\Local\Temp\testng-eclipse-1345525375\testng-customsuite.xml
+
+[INFO ] 2023-07-14 18:40:45.640 [main] Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 18 ms.
+[INFO ] 2023-07-14 18:40:47.388 [main] WebDriverManager - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-14 18:40:47.544 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\paone\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-14 18:41:08.617 [main] homepagetest - Initialisation started
+[INFO ] 2023-07-14 18:41:08.840 [main] homepagetest - myaccountlabel verification test
+[WARN ] 2023-07-14 18:41:09.131 [AsyncHttpClient-1-4] WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[INFO ] 2023-07-14 18:41:09.897 [main] WebDriverManager - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-14 18:41:09.943 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\paone\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-14 18:41:25.306 [main] homepagetest - Initialisation started
+[INFO ] 2023-07-14 18:41:25.452 [main] homepagetest - registerpagelabelverification test started
+[INFO ] 2023-07-14 18:41:26.385 [main] WebDriverManager - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-14 18:41:26.459 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\paone\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-14 18:41:39.997 [main] homepagetest - Initialisation started
+[INFO ] 2023-07-14 18:41:42.625 [main] WebDriverManager - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-14 18:41:42.667 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\paone\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-14 18:41:58.432 [main] homepagetest - Initialisation started
+[INFO ] 2023-07-14 18:42:03.807 [main] Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@577bfadb: 94 ms
+[INFO ] 2023-07-14 18:42:04.025 [main] Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@3d0352: 203 ms
+[INFO ] 2023-07-14 18:42:04.088 [main] Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@3a861417: 63 ms
+[INFO ] 2023-07-14 18:42:04.150 [main] Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@7185e611: 62 ms
+[INFO ] 2023-07-14 18:42:04.260 [main] Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@72b40f87: 110 ms
+[INFO ] 2023-07-14 18:42:04.275 [main] Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@507049f2: 15 ms
+[INFO ] 2023-07-14 18:42:04.275 [main] Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@4e94669c: 0 ms

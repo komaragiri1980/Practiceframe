@@ -1,9 +1,10 @@
 package Testcases;
-import org.testng.Assert;
-import org.testng.ITestResult;
+
 
 import java.io.IOException;
 
+import org.testng.Assert;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
@@ -15,14 +16,16 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
-
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 import base.Basetest;
 import pages.Homepage;
 import pages.Loginpage;
 import pages.Registerpage;
 import utilities.Testutil;
-
 public class homepagetest extends Basetest {
+	
+	private  final Logger logger = LogManager.getLogger(homepagetest.class);
 	
 	public homepagetest() throws IOException {
 		
@@ -41,6 +44,7 @@ public class homepagetest extends Basetest {
 	   initialization( );
 	   homepage  = new Homepage();
 	   homepage.clickonmyaccount();
+	  logger.info("Initialisation started"); 
 	}
  
    @BeforeTest
@@ -59,18 +63,20 @@ public class homepagetest extends Basetest {
 	  extent.setSystemInfo("Host name", "localhost");
 	  extent.setSystemInfo("Environemnt", "QA");
 	  extent.setSystemInfo("user", "Madhu");
+	  
 	 }
   @Test(priority=1)
   public void myaccountlabelverification() {
 	  test = extent.createTest("myaccountlabelverification");
-	  Assert.assertTrue(homepage.verifymyaccountlabel(),"myaccount lable is not displayed");
+		  Assert.assertTrue(homepage.verifymyaccountlabel(),"myaccount lable is not displayed");
+  logger.info("myaccountlabel verification test");
   }
 	
   @Test(priority = 2)
   public void registerpagelabelverification() {
 	  test = extent.createTest("registerpagelabelverification");
 	Assert.assertTrue(homepage.verifyregisterbutton(), "register button is not displayed");  
-	  
+	  logger.info("registerpagelabelverification test started");
   }
   
   @Test(priority=3)
@@ -85,12 +91,14 @@ public class homepagetest extends Basetest {
 	  test = extent.createTest("loginrpagevalidation");
 	  homepage.clickonlogin();
 	  Assert.assertEquals(homepage.validatingloginpage(), "Ne Customer", "new cusotmer is not displaying");
-	  
+	
+	 
   }
   
   @AfterTest
 	 public void endReport() {
 	  extent.flush();
+	 
 	 }
   
        @AfterMethod
