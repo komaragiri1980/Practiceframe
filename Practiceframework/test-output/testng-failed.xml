@@ -6,7 +6,7 @@
       <class name="Testcases.homepagetest">
         <methods>
           <include name="endReport"/>
-          <include name="teardown"/>
+          <include name="tearDown"/>
           <include name="setExtent"/>
           <include name="loginrpagevalidation"/>
           <include name="setup"/>

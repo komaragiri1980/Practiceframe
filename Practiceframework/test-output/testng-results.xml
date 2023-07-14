@@ -1,69 +1,140 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-13T17:08:51 CDT" name="Suite" finished-at="2023-07-13T17:10:19 CDT" duration-ms="88838">
+  <suite started-at="2023-07-13T20:06:55 CDT" name="Default suite" finished-at="2023-07-13T20:08:23 CDT" duration-ms="88375">
     <groups>
     </groups>
-    <test started-at="2023-07-13T17:08:51 CDT" name="Test" finished-at="2023-07-13T17:10:19 CDT" duration-ms="88838">
+    <test started-at="2023-07-13T20:06:55 CDT" name="Default test" finished-at="2023-07-13T20:08:23 CDT" duration-ms="88375">
       <class name="Testcases.homepagetest">
-        <test-method is-config="true" signature="setExtent()[pri:0, instance:Testcases.homepagetest@3f363cf5]" started-at="2023-07-13T17:08:51 CDT" name="setExtent" finished-at="2023-07-13T17:08:53 CDT" duration-ms="2216" status="PASS">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:Testcases.homepagetest@1bb1fde8]" started-at="2023-07-13T20:06:55 CDT" name="setExtent" finished-at="2023-07-13T20:06:56 CDT" duration-ms="1605" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.homepagetest@3f363cf5]" started-at="2023-07-13T17:08:53 CDT" name="setup" finished-at="2023-07-13T17:09:19 CDT" duration-ms="26312" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.homepagetest@1bb1fde8]" started-at="2023-07-13T20:06:56 CDT" name="setup" finished-at="2023-07-13T20:07:18 CDT" duration-ms="21829" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="myaccountlabelverification()[pri:1, instance:Testcases.homepagetest@3f363cf5]" started-at="2023-07-13T17:09:19 CDT" name="myaccountlabelverification" finished-at="2023-07-13T17:09:20 CDT" duration-ms="189" status="PASS">
+        <test-method signature="myaccountlabelverification()[pri:1, instance:Testcases.homepagetest@1bb1fde8]" started-at="2023-07-13T20:07:18 CDT" name="myaccountlabelverification" finished-at="2023-07-13T20:07:19 CDT" duration-ms="312" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myaccountlabelverification -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.homepagetest@3f363cf5]" started-at="2023-07-13T17:09:20 CDT" name="teardown" finished-at="2023-07-13T17:09:21 CDT" duration-ms="926" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Testcases.homepagetest@1bb1fde8]" started-at="2023-07-13T20:07:19 CDT" name="tearDown" finished-at="2023-07-13T20:07:20 CDT" duration-ms="1776" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=myaccountlabelverification status=SUCCESS method=homepagetest.myaccountlabelverification()[pri:1, instance:Testcases.homepagetest@1bb1fde8] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.homepagetest@3f363cf5]" started-at="2023-07-13T17:09:21 CDT" name="setup" finished-at="2023-07-13T17:09:36 CDT" duration-ms="15106" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.homepagetest@1bb1fde8]" started-at="2023-07-13T20:07:20 CDT" name="setup" finished-at="2023-07-13T20:07:44 CDT" duration-ms="24067" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="registerpagelabelverification()[pri:2, instance:Testcases.homepagetest@3f363cf5]" started-at="2023-07-13T17:09:36 CDT" name="registerpagelabelverification" finished-at="2023-07-13T17:09:36 CDT" duration-ms="215" status="PASS">
+        <test-method signature="registerpagelabelverification()[pri:2, instance:Testcases.homepagetest@1bb1fde8]" started-at="2023-07-13T20:07:44 CDT" name="registerpagelabelverification" finished-at="2023-07-13T20:07:45 CDT" duration-ms="198" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerpagelabelverification -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.homepagetest@3f363cf5]" started-at="2023-07-13T17:09:36 CDT" name="teardown" finished-at="2023-07-13T17:09:36 CDT" duration-ms="530" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Testcases.homepagetest@1bb1fde8]" started-at="2023-07-13T20:07:45 CDT" name="tearDown" finished-at="2023-07-13T20:07:46 CDT" duration-ms="1202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerpagelabelverification status=SUCCESS method=homepagetest.registerpagelabelverification()[pri:2, instance:Testcases.homepagetest@1bb1fde8] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.homepagetest@3f363cf5]" started-at="2023-07-13T17:09:36 CDT" name="setup" finished-at="2023-07-13T17:09:52 CDT" duration-ms="15371" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.homepagetest@1bb1fde8]" started-at="2023-07-13T20:07:46 CDT" name="setup" finished-at="2023-07-13T20:07:58 CDT" duration-ms="12108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="registerpagevalidation()[pri:3, instance:Testcases.homepagetest@3f363cf5]" started-at="2023-07-13T17:09:52 CDT" name="registerpagevalidation" finished-at="2023-07-13T17:09:56 CDT" duration-ms="4515" status="PASS">
+        <test-method signature="registerpagevalidation()[pri:3, instance:Testcases.homepagetest@1bb1fde8]" started-at="2023-07-13T20:07:58 CDT" name="registerpagevalidation" finished-at="2023-07-13T20:08:00 CDT" duration-ms="1936" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerpagevalidation -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.homepagetest@3f363cf5]" started-at="2023-07-13T17:09:56 CDT" name="teardown" finished-at="2023-07-13T17:10:01 CDT" duration-ms="4240" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Testcases.homepagetest@1bb1fde8]" started-at="2023-07-13T20:08:00 CDT" name="tearDown" finished-at="2023-07-13T20:08:01 CDT" duration-ms="700" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerpagevalidation status=SUCCESS method=homepagetest.registerpagevalidation()[pri:3, instance:Testcases.homepagetest@1bb1fde8] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.homepagetest@3f363cf5]" started-at="2023-07-13T17:10:01 CDT" name="setup" finished-at="2023-07-13T17:10:15 CDT" duration-ms="14498" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.homepagetest@1bb1fde8]" started-at="2023-07-13T20:08:01 CDT" name="setup" finished-at="2023-07-13T20:08:17 CDT" duration-ms="16575" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginrpagevalidation()[pri:4, instance:Testcases.homepagetest@3f363cf5]" started-at="2023-07-13T17:10:15 CDT" name="loginrpagevalidation" finished-at="2023-07-13T17:10:17 CDT" duration-ms="1781" status="PASS">
+        <test-method signature="loginrpagevalidation()[pri:4, instance:Testcases.homepagetest@1bb1fde8]" started-at="2023-07-13T20:08:17 CDT" name="loginrpagevalidation" finished-at="2023-07-13T20:08:18 CDT" duration-ms="1202" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[new cusotmer is not displaying expected [Ne Customer] but found [New Customer]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: new cusotmer is not displaying expected [Ne Customer] but found [New Customer]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at Testcases.homepagetest.loginrpagevalidation(homepagetest.java:87)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginrpagevalidation -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.homepagetest@3f363cf5]" started-at="2023-07-13T17:10:17 CDT" name="teardown" finished-at="2023-07-13T17:10:18 CDT" duration-ms="863" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Testcases.homepagetest@1bb1fde8]" started-at="2023-07-13T20:08:18 CDT" name="tearDown" finished-at="2023-07-13T20:08:21 CDT" duration-ms="2338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginrpagevalidation status=FAILURE method=homepagetest.loginrpagevalidation()[pri:4, instance:Testcases.homepagetest@1bb1fde8] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:Testcases.homepagetest@3f363cf5]" started-at="2023-07-13T17:10:18 CDT" name="endReport" finished-at="2023-07-13T17:10:19 CDT" duration-ms="1749" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:Testcases.homepagetest@1bb1fde8]" started-at="2023-07-13T20:08:21 CDT" name="endReport" finished-at="2023-07-13T20:08:23 CDT" duration-ms="2120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
       </class> <!-- Testcases.homepagetest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
